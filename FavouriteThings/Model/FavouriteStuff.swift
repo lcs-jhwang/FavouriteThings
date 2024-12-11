@@ -16,6 +16,6 @@ struct Things: Identifiable{
 
 let friedRice = Things(name: "Fried Rice", description: "A nicely made fried rice makes my day", image: "...")
 let ramen = Things(name: "Ramen", description: "With a hot a tasty broth, its nice to have in cold winter nights", image: "...")
-let firedWings = Things(name: "Fried Wings", description: "Crispy and tasty", image: "...")
+let friedWings = Things(name: "Fried Wings", description: "Crispy and tasty", image: "...")
 
-let FavouriteThings = [friedRice,ramen,friedRice]
+let FavouriteThings = [friedRice,ramen,friedWings]

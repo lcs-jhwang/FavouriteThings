@@ -16,11 +16,16 @@ struct ThingsView: View {
             Image(systemName: "fork.knife")
             VStack{
                 Text(providedThings.name)
+                    .alignmentGuide(HorizontalAlignment.center) {_ in 0  }
+                Text(providedThings.description)
+                    .alignmentGuide(HorizontalAlignment.center){
+                        _ in 0
+                    }
             }
         }
     }
 }
 
 #Preview {
-    ThingsView(providedThings: friedRice)
+    ThingsView(providedThings: friedWings)
 }
