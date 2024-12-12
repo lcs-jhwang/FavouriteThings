@@ -13,7 +13,7 @@ struct ThingsView: View {
     
     var body: some View {
         HStack{
-            Image(systemName: "fork.knife")
+            Image(systemName: providedThings.image)
             VStack{
                 Text(providedThings.name)
                     .alignmentGuide(HorizontalAlignment.center) {_ in 0  }
