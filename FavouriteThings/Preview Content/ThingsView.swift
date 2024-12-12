@@ -13,7 +13,11 @@ struct ThingsView: View {
     
     var body: some View {
         HStack{
-            Image(systemName: providedThings.image)
+            Image(providedThings.image)
+                .resizable()
+                   .scaledToFill()
+                   .frame(width: 50, height: 50, alignment: .center)
+                   .clipped()
             VStack{
                 Text(providedThings.name)
                     .alignmentGuide(HorizontalAlignment.center) {_ in 0  }
