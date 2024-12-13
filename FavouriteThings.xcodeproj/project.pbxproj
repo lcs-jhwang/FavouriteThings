@@ -13,6 +13,7 @@
 		31FF54082D09FAF90018627A /* FavouriteStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF54072D09FADB0018627A /* FavouriteStuff.swift */; };
 		31FF540A2D09FD160018627A /* FavouriteThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF54092D09FD160018627A /* FavouriteThingsView.swift */; };
 		31FF540C2D09FD9F0018627A /* ThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF540B2D09FD9F0018627A /* ThingsView.swift */; };
+		31FF54102D0B9CB60018627A /* ThingsDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF540F2D0B9CB60018627A /* ThingsDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		31FF54072D09FADB0018627A /* FavouriteStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteStuff.swift; sourceTree = "<group>"; };
 		31FF54092D09FD160018627A /* FavouriteThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsView.swift; sourceTree = "<group>"; };
 		31FF540B2D09FD9F0018627A /* ThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsView.swift; sourceTree = "<group>"; };
+		31FF540F2D0B9CB60018627A /* ThingsDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				31FF54092D09FD160018627A /* FavouriteThingsView.swift */,
 				31FF540B2D09FD9F0018627A /* ThingsView.swift */,
+				31FF540F2D0B9CB60018627A /* ThingsDetailedView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				31FF54082D09FAF90018627A /* FavouriteStuff.swift in Sources */,
 				31FF54052D09FAAE0018627A /* FavouriteThingsApp.swift in Sources */,
 				31FF540C2D09FD9F0018627A /* ThingsView.swift in Sources */,
+				31FF54102D0B9CB60018627A /* ThingsDetailedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
